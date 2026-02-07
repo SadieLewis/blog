@@ -6,9 +6,9 @@
   "minima/skins/{{ site.minima.skin | default: 'classic' }}",
   "minima/initialize";
 
-//.home{
-  //background-color: darkviolet;
-//}
+.home{
+  background-color: darkviolet;
+}
 //.post-header{
   //border-color: darkviolet;
   //border: 10px solid;
