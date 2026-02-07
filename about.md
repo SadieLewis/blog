@@ -1,18 +1,12 @@
 ---
 layout: page
-title: About
+title: About Me
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+I am a 20 year old college student who is majoring in computer science at Hendrix College! I love dogs, I have two at my home in NorthWest Arkansas, and I play softball! I am also an RA for Raney Hall here on campus, so I help make and host events for residents but also help out with crises in the building when they occur! 
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+You can find the source code for this blog at my Github!
+[Github][github]
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
-
-
-[jekyll-organization]: https://github.com/jekyll
+[github]: https://github.com/SadieLewis/blog

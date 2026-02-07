@@ -1,5 +1,6 @@
 ---
 layout: post
+# I think this is what the lab 3 meant by add author tag to the first post
 author: Sadie Lewis
 ---
 
