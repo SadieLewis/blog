@@ -8,13 +8,13 @@ author: Sadie Lewis
 ...
 
 
-![LucidChart](blog/blog/assets\css/Lab6_LucidChart.png)
+![LucidChart](blog/assets\css/Lab6_LucidChart.png)
 
 
 ...
 
 
-![RedGate](blog/blog/assets\css/Lab6_RedGate.png)
+![RedGate](blog/assets\css/Lab6_RedGate.png)
 
 
 [github]: https://github.com/SadieLewis/blog
