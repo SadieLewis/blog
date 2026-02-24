@@ -9,11 +9,23 @@ When I was creating the user stories for the given scenario in Lab 6, I assummed
 
 
 **5 User Stories**
+
+
 1) As a Store Owner, I can list products, so that they can be sold to consumers.
+
+
 2) As a Customer, I can register an account, so that I can purchase items. 
+
+
 3) As a Store Owner, I can add product specifications, so that customers can see item specifications
+
+
 4) As a Customer, I can specify order instructions, so that I can choose a time, date, and method. 
+
+
 5) As an Admin, I can add the ability to register accounts, so that users can view and buy products.
+
+
 
 
 Overall it wasn't difficult to concoct these stories, but it was hard to determine the overlap between them and estimate how long they'd take. This was especially evident in distinguishing story 2 and 5, since they both rely on the same functionality to be added to the web application. 
@@ -33,8 +45,8 @@ To go into more depth about these user stories:
 
 
 The following is my LucidChart entity-relationship diagram that I modeled after this lab. I included 5 entities, the store owner, admin, customer, item, and order. All of them were connected in some way or another, for example, a store owner can list an item, an item can be added to an order, a customer can purchase an item, and the admin can create the ability for the owner to add items. Additionally these entities have attributes, like how order has type (pick-up or delivery), time, finalized (done or not), and a date. I also included the cardinalities for each relationship, to indicate the nature of them.
-![Lab6_LucidChart](Lab6_LucidChart.png)
+![LucidChart](blog/Lab6_LucidChart.png)
 
 
 This model is the results of my RedGate Data Modeling schema, where I made a table for each entity translated over from the entity-relationship diagram. The most complex entity is the order, which relies upon the foreign keys of both item and customer to register whose order it is and what's in it. After that is is assigned its own primary key in the order ID to keep it from being mixed up with others. The store owner and admin are included, but admitedly don't have many attributes relevant except for their names on their accounts permitting them to access and adjust things beyond customer access. 
-![Lab6_RedGate](Lab6_RedGate.png)
+![RedGate](blog/Lab6_RedGate.png)
