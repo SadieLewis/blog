@@ -45,8 +45,8 @@ To go into more depth about these user stories:
 
 
 The following is my LucidChart entity-relationship diagram that I modeled after this lab. I included 5 entities, the store owner, admin, customer, item, and order. All of them were connected in some way or another, for example, a store owner can list an item, an item can be added to an order, a customer can purchase an item, and the admin can create the ability for the owner to add items. Additionally these entities have attributes, like how order has type (pick-up or delivery), time, finalized (done or not), and a date. I also included the cardinalities for each relationship, to indicate the nature of them.
-![LucidChart]({{'assets\css/images/Lab6_LucidChart.png' | relative_url}})
+![LucidChart]({{'assets/css/images/Lab6_LucidChart.png' | relative_url}})
 
 
 This model is the results of my RedGate Data Modeling schema, where I made a table for each entity translated over from the entity-relationship diagram. The most complex entity is the order, which relies upon the foreign keys of both item and customer to register whose order it is and what's in it. After that is is assigned its own primary key in the order ID to keep it from being mixed up with others. The store owner and admin are included, but admitedly don't have many attributes relevant except for their names on their accounts permitting them to access and adjust things beyond customer access. 
-![RedGate]({{'assets\css/images/Lab6_RedGate.png' | relative_url}})
+![RedGate]({{'assets/css/images/Lab6_RedGate.png' | relative_url}})
